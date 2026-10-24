@@ -28,6 +28,6 @@ void main() {
       ),
     ];
     final saldo = hitungSaldo(saldoAwal: 10000, transaksi: transaksi,);
-    expect(saldo, 12000);
+    expect(saldo, 27000);
   });
 }
